@@ -2,7 +2,8 @@
   "name": "proyecto-node-crud",
   "version": "1.0.0",
   "description": "Haremos un CRUD con NodeJS, MongoDB y Docker",
-  "main": "index.js",
+  "main": "app.js",
+  "type": "module",
   "scripts": {
     "dev": "nodemon src/app.js",
     "start": "node src/app.js"
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/LautaroMoreno2002/proyecto-node-CRUD/issues"
   },
-  "homepage": "https://github.com/LautaroMoreno2002/proyecto-node-CRUD#readme"
+  "homepage": "https://github.com/LautaroMoreno2002/proyecto-node-CRUD#readme",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.4"
+  }
 }
