@@ -1,0 +1,20 @@
+{
+  "name": "proyecto-node-crud",
+  "version": "1.0.0",
+  "description": "Haremos un CRUD con NodeJS, MongoDB y Docker",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/app.js",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LautaroMoreno2002/proyecto-node-CRUD.git"
+  },
+  "author": "Lautaro Moreno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LautaroMoreno2002/proyecto-node-CRUD/issues"
+  },
+  "homepage": "https://github.com/LautaroMoreno2002/proyecto-node-CRUD#readme"
+}
