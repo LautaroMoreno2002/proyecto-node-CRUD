@@ -1,7 +1,7 @@
-import mongoose from "mongoose";
+const mongoose = require('mongoose');
 
 // Inicializo la tabla en MongoDB
-export const bookSchema = mongoose.Schema(
+const bookSchema = mongoose.Schema(
   {
     title: String,
     author: String,
@@ -9,3 +9,5 @@ export const bookSchema = mongoose.Schema(
     publication_date: String
   }
 )
+
+module.exports = mongoose.model('Book', bookSchema) // Exporta como un mongoose model

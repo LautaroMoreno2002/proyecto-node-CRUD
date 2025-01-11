@@ -1,7 +1,10 @@
-import express from 'express';
-import { config } from 'dotenv';
+const express = require('express');
+const { config } = require('dotenv');
+const mongoose = require('mongoose');
 
 config();
+
+const bookRoutes = require('./routes/book.router')
 
 const app = express();
 
